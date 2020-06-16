@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="W5s-Cd-dQd">
-                                <rect key="frame" x="63" y="298" width="297" height="251"/>
+                                <rect key="frame" x="59" y="126" width="297" height="251"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Amsterdam" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vj7-5e-TCR">
@@ -24,20 +24,59 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.94518467417120089" green="1" blue="0.36272339969157985" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="italicSystem" pointSize="30"/>
-                                        <color key="textColor" red="1" green="0.021121767051775153" blue="0.60377131876827317" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" red="0.58990446890000003" green="0.0" blue="0.35681974109999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What is the capital of            the Netherlands?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O49-s6-7I8">
-                                        <rect key="frame" x="0.0" y="0.0" width="297" height="250"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="297" height="269"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.58990446890000003" green="0.0" blue="0.35681974109999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="italicSystem" pointSize="30"/>
-                                        <color key="textColor" red="0.85547253779999999" green="1" blue="0.13676239000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" red="0.94509803920000002" green="1" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sVf-21-R7S">
+                                <rect key="frame" x="59" y="438" width="297" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.58990446890000003" green="0.0" blue="0.35681974109999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <gestureRecognizers/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="30"/>
+                                <state key="normal" title="Moscow">
+                                    <color key="titleColor" red="0.94509803920000002" green="1" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="SBx-GP-BNU" appends="YES" id="U86-g1-9ka"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d9b-K2-W9e">
+                                <rect key="frame" x="59" y="521" width="297" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.58990446890000003" green="0.0" blue="0.35681974109999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <gestureRecognizers/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="30"/>
+                                <state key="normal" title="Amsterdam">
+                                    <color key="titleColor" red="0.94509803920000002" green="1" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Fci-sU-IFf" appends="YES" id="oTy-ae-lyK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y25-lO-Cwq">
+                                <rect key="frame" x="59" y="602" width="297" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.58990446890000003" green="0.0" blue="0.35681974109999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <gestureRecognizers/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="30"/>
+                                <state key="normal" title="Berlin">
+                                    <color key="titleColor" red="0.94509803920000002" green="1" blue="0.36078431370000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="xlN-rn-fXA" appends="YES" id="eM5-SK-gs0"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.19382442529999999" green="1" blue="0.71465641260000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <gestureRecognizers/>
@@ -48,13 +87,32 @@
                     </view>
                     <connections>
                         <outlet property="backLabel" destination="Vj7-5e-TCR" id="sTP-s3-XPK"/>
+                        <outlet property="card" destination="W5s-Cd-dQd" id="Tqt-dD-ifL"/>
                         <outlet property="frontLabel" destination="O49-s6-7I8" id="ozp-Eo-Obf"/>
+                        <outlet property="option1" destination="sVf-21-R7S" id="unT-1r-VLH"/>
+                        <outlet property="option2" destination="d9b-K2-W9e" id="r60-Sp-Phd"/>
+                        <outlet property="option3" destination="Y25-lO-Cwq" id="fRU-yM-Yey"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="dkR-EW-M2n">
                     <connections>
                         <action selector="didTapOnFlashcard:" destination="BYZ-38-t0r" id="mZA-hM-Qha"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="SBx-GP-BNU">
+                    <connections>
+                        <action selector="didTapOptionOne:" destination="BYZ-38-t0r" id="c9F-QU-ugx"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="Fci-sU-IFf">
+                    <connections>
+                        <action selector="didTapOptionTwo:" destination="BYZ-38-t0r" id="kw0-7B-zbm"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="xlN-rn-fXA">
+                    <connections>
+                        <action selector="didTapOptionThree:" destination="BYZ-38-t0r" id="Tdi-tn-Ltf"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
